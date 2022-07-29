@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="mycanvas" height="800" width="800"></canvas>
+    <script>
+        var cnvs = document.getElementById("mycanvas")
+        console.log(cnvs);
+        const cntxt = cnvs.getContext("2d");
+        // cntxt.fillStyle = "#c00";
+        // cntxt.fillRect(10, 10, 100, 100);
+        cntxt.rect(10, 50, 150, 200);
+        cntxt.stroke();
+    </script>
+</body>
+
+</html>

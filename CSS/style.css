@@ -1,0 +1,8 @@
+/* Never contain HTML tags */
+
+h3{
+    color: yellow;
+}
+h1{
+    color: yellow;
+}

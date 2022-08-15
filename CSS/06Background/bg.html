@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 500px;
+        }
+
+        .background-attachment {
+            /* background-color: blue; */
+            background-image: url(happy_independence_day_01-sixteen_nine.webp);
+            background-attachment: fixed;
+            /* background-attachment:scroll */
+        }
+
+
+
+        .background-position {
+            border: 25px dotted rgba(77, 255, 0, 0.504);
+            /* background-clip:border-box; */
+            background-image: url(15aug.jpg);
+            /* background-position: 50%;             */
+            /* background-position: center;             */
+            background-position: 10% 20%;
+        }
+
+        .background-clip {
+            border: 25px dotted rgba(77, 255, 0, 0.504);
+            /* background-clip:border-box; */
+            background-clip: content-box;
+            background-image: url(15aug.jpg);
+            padding: 50px;
+        }
+
+        .background-origin {
+            border: 25px dashed rgba(255, 68, 0, 0.549);
+            background: url(15aug.jpg);
+            /* background-origin:border-box */
+            background-origin: content-box;
+            padding: 50px;
+        }
+
+        .background-color {
+            border: 25px dotted rgba(77, 255, 0, 0.504);
+            background-color: grey;
+        }
+
+        .background-image {
+            background-image: url(happy_independence_day_01-sixteen_nine.webp)
+        }
+
+        .background-repeat {
+            background-image: url(15aug.jpg);
+            background-repeat: no-repeat
+        }
+
+        .background-size {
+            background-image: url(15aug.jpg);
+            /* background-size: contain; */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .bgshthd {
+            background: url(15aug.jpg)no-repeat 20% 20% /cover fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li> background-attachment</li>
+        <li> background-clip</li>
+        <li> background-position</li>
+        <li> background-origin</li>
+        <li> background-color</li>
+        <li> background-image</li>
+        <li> background-repeat</li>
+        <li> background-size</li>
+    </ul>
+    <div class="background-attachment">background-attachment</div>
+    <div class="background-clip">background-clip</div>
+    <div class="background-origin">background-origin</div>
+    <div class="background-position">background-position</div>
+    <div class="background-color">background-color</div>
+    <div class="background-image">background-image</div>
+    <div class="background-repeat">background-repeat</div>
+    <div class="background-size">background-size</div>
+    <div class="bgshthd">shorthand</div>
+</body>
+
+</html>

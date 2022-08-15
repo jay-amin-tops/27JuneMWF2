@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            font-size: 36px;
+        }
+
+        p::first-line {
+            color: yellowgreen;
+        }
+
+        p::selection {
+            background-color: brown;
+            color: yellowgreen;
+        }
+
+        h2::before {
+            content: "~";
+        }
+
+        h2::after {
+            content: "~";
+        }
+
+        input::file-selector-button {
+            font-weight: bold;
+            color: dodgerblue;
+            padding: 0.5em;
+            border: thin solid grey;
+            border-radius: 3px;
+        }
+
+        li::marker {
+            content: '✝ ';
+            font-size: 1.2em;
+        }
+        input::placeholder{
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Something</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, excepturi. Officiis rerum, nobis dolor iure
+        repellat maxime omnis sunt natus molestias libero consequatur aut alias eius quis a laboriosam consequuntur!</p>
+    <input type="file" name="" id="">
+        <ul>
+            <li>Test</li>
+            <li>Test</li>
+            <li>Test</li>
+        </ul>
+        <input type="text" placeholder="Enter User Name" name="" id="">
+</body>
+
+</html>

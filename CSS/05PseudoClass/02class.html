@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link {
+            color: red;
+        }
+
+        /* a{
+            color: red;
+        } */
+        a:visited {
+            color: green;
+        }
+
+        input:focus {
+            outline: 2px solid orange;
+        }
+
+        input:-webkit-autofill {
+            border: 2px solid blue;
+        }
+
+        button:disabled {
+            background-color: steelblue;
+        }
+
+        button:enabled {
+            color: blue;
+        }
+
+        input:checked {
+            border: none;
+            outline: 2px solid rgb(20, 110, 255);
+        }
+        input:valid{
+            border: 2px solid green;
+        }
+        input:invalid{
+            border: 2px solid red;
+        }
+        img{
+            width: 10%;
+        }
+        img:hover{
+            width: 20%;
+            cursor: progress;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="https://www.google.com">Google visited</a></li>
+        <li><a href="https://www.googleasd.com">Google not visited</a></li>
+    </ul>
+    <img src="../../HTML/htmlcssjs.png" alt="">
+    <form  method="post">
+
+        <input type="text" name="username" id="">
+        <input type="email" name="email" required id="email">
+        <input type="checkbox" name="" id="">
+        <button disabled>Registration</button>
+        <button>Registration</button>
+    </form>
+
+</body>
+
+</html>

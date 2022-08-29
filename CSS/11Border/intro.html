@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .border {
+            border: 3px solid;
+        }
+        div{
+            margin: 10px;
+            padding: 10px;
+        }
+        .border-dotted { border: 15px dotted rebeccapurple; }
+        .border-dashed { border: 15px dashed olive; }
+        .border-double { border: 15px double rgb(153, 102, 51); }
+        .border-groove { border: 15px groove rgb(8, 22, 131); }
+        .border-ridge { border: 15px ridge rgb(51, 150, 153); }
+        .border-inset { border: 15px inset rgb(17, 104, 30); }
+        .border-outset { border: 15px outset rgb(113, 18, 18); }
+        .border-right-bottom{
+            border-bottom: 2px solid grey;
+            border-right: 2px solid rgb(0, 44, 93);
+        }
+        .border-radi{
+            border: 15px outset rgb(113, 18, 18);
+            border-radius: 5px;
+        }
+        .circle-using-border{
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            background-color: slateblue;
+            border-radius: 50%;
+        }
+        .border-effect-2{
+            width: 200px;
+            height: 100px;
+            display: inline-block;
+            background-color: rgb(2, 84, 95);
+            border-radius: 50px 0px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li> border-style: none;</li>
+        <li> border-style: hidden;</li>
+        <li> border-style: dotted;</li>
+        <li> border-style: dashed;</li>
+        <li> border-style: solid;</li>
+        <li> border-style: double;</li>
+        <li> border-style: groove;</li>
+        <li> border-style: ridge;</li>
+        <li> border-style: inset;</li>
+        <li> border-style: outset;</li>
+    </ul>
+    <div class="border">test</div>
+    <div class="border-dotted">border-dotted</div>
+    <div class="border-dashed">border-dashed</div>
+    <div class="border-double">border-double</div>
+    <div class="border-groove">border-groove</div>
+    <div class="border-ridge">border-ridge</div>
+    <div class="border-inset">border-inset</div>
+    <div class="border-outset">border-outset</div>
+    <div class="border-right-bottom">border-effect</div>
+    <div class="border-radi">border-radi</div>
+    <div class="circle-using-border">cercle</div>
+    <div class="border-effect-2">cercle</div>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            border: 1px solid;
+        }
+        .container{
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            padding: 10px;
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+        }
+        .col-rev{
+            flex-direction: column-reverse;
+        }
+        .row-rev{
+            flex-direction: row-reverse;
+        }
+        .wrap{
+            flex-wrap: wrap;
+        }
+        .box3{
+            width: 33.33%;
+        }
+        .justispc-flex-end{
+            justify-content: flex-end;
+        }
+        .justispc-flex-start{
+            justify-content: flex-start;
+        }
+        .justispc-space-between{
+            justify-content: space-between;
+        }
+        .justispc-space-around{
+            justify-content: space-around;
+        }
+        .justispc-space-evenly{
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Display Flex</h2>
+    <p>helps to change child context diplay prop line line by line or side by side</p>
+    
+    <div class="container">
+        <div class="box1">Box 1 </div>
+        <div class="box2">Box 2 </div>
+        <div class="box3">Box 3 </div>
+    </div>
+    <div class="container col-rev">
+        <div class="box1">Box 1 </div>
+        <div class="box2">Box 2 </div>
+        <div class="box3">Box 3 </div>
+    </div>
+    <div class="container row-rev">
+        <div class="box1">Box 1 </div>
+        <div class="box2">Box 2 </div>
+        <div class="box3">Box 3 </div>
+    </div>
+    <div class="container wrap">
+        <div class="box1">Box 1 </div>
+        <div class="box2">Box 2 </div>
+        <div class="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit veniam, culpa necessitatibus illo ducimus quisquam esse debitis alias earum eum fuga doloremque harum sed repudiandae optio ab eveniet, unde molestias? 3 </div>
+        <div class="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit veniam, culpa necessitatibus illo ducimus quisquam esse debitis alias earum eum fuga doloremque harum sed repudiandae optio ab eveniet, unde molestias? 3  </div>
+        <div class="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit veniam, culpa necessitatibus illo ducimus quisquam esse debitis alias earum eum fuga doloremque harum sed repudiandae optio ab eveniet, unde molestias? 3  </div>
+        <div class="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit veniam, culpa necessitatibus illo ducimus quisquam esse debitis alias earum eum fuga doloremque harum sed repudiandae optio ab eveniet, unde molestias? 3  </div>
+    </div>
+    <div class="container">
+        <div class="box3">Box 1 </div>
+        <div class="box3">Box 2 </div>
+        <div class="box3">Box 3 </div>
+    </div>
+    <div class="container justispc-flex-end">
+        <div class="box1">Box 1 </div>
+        <div class="box1">Box 2 </div>
+        <div class="box1">Box 3 </div>
+    </div>
+    <div class="container justispc-flex-start">
+        <div class="box1">Box 1 </div>
+        <div class="box1">Box 2 </div>
+        <div class="box1">Box 3 </div>
+    </div>
+    <h2>space-between</h2>
+    <div class="container justispc-space-between">
+        <div class="box1">Box 1 </div>
+        <div class="box1">Box 2 </div>
+        <div class="box1">Box 3 </div>
+    </div>
+    <h2>space-around</h2>
+    <div class="container justispc-space-around">
+        <div class="box1">Box 1 </div>
+        <div class="box1">Box 2 </div>
+        <div class="box1">Box 3 </div>
+    </div>
+    <h2>space-evenly</h2>
+    <div class="container justispc-space-evenly">
+        <div class="box1">Box 1 </div>
+        <div class="box1">Box 2 </div>
+        <div class="box1">Box 3 </div>
+    </div>
+    <h2>Flex gap</h2>
+    <div class="container justispc-space-evenly">
+        <div class="box1">Box 1 </div>
+        <div class="box1">Box 2 </div>
+        <div class="box1">Box 3 </div>
+    </div>
+</body>
+</html>

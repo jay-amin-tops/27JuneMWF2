@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .static{
+            position: static;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+        }
+        .relative{
+            position: relative;
+            top: 5px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+        }
+        .absolute{
+            position: absolute;
+            top: 5px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+        }
+        .fixed{
+            position: fixed;
+            top: 5px;
+            /* left: 20px; */
+            right: 0px;
+            bottom: 20px;
+        }
+        .sticky{
+            position: sticky;
+            top: 5px;
+            /* left: 20px; */
+            right: 0px;
+            bottom: 20px;
+            background-color: brown;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li> position: static;</li>
+        <li> position: relative;</li>
+        <li> position: absolute;</li>
+        <li> position: fixed;</li>
+        <li> position: sticky;</li>
+    </ul>
+<div class="static">default static</div>
+<div class="relative">relative enables top-left-right-bottom. not realese own space</div>
+<div class="absolute">absolute create layer and enables top-left-right-bottom layer will be impacted according screen</div>
+<div class="fixed">Stick data on fixed place</div>
+
+
+<div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+</div>
+<div>
+    <div class="sticky">fixed data on fixed place for particular section/div</div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+</div>
+
+<div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta optio repellendus amet id nihil ea porro, ipsa dolorem architecto saepe. Expedita enim rerum repudiandae ipsam, labore laudantium praesentium laborum minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati totam, officia sunt consequuntur quidem ratione quod sint voluptates ullam excepturi saepe rem temporibus nostrum, hic eum itaque, quo fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cumque fuga unde beatae facere quos at consequatur sapiente excepturi, deleniti sequi facilis dicta repudiandae inventore aperiam temporibus iste ullam ipsam?</p>
+</div>
+</body>
+
+</html>

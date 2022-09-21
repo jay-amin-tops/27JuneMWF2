@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Playfair Display";
+    src: url(../fonts/GrandHotel-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Playfair Display'; */
+    font-family: "Montserrat";
+    border: 1px solid;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    /* margin: 0 -15px; */
+}
+
+/* div[class*="col"]{
+    padding: 0 15px;
+} */
+.col-33 {
+    width: 33.33%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.posi-rele {
+    position: relative;
+}
+
+.posi-ab {
+    position: absolute;
+}
+
+.ml-a {
+    margin-left: auto;
+}
+
+.main-header-left {
+    width: 500px;
+    height: 787px;
+    object-fit: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main-header-right {
+    width: 1010px;
+    right: 0px;
+    top: -100px;
+}
+
+.main-menu {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+nav>ul>li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.title {
+    font-size: 125px;
+    color: #ffc200;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+}
+
+.title-wrapper {
+    z-index: 1;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.title-wrapper p {
+    width: 80%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.btn {
+    border-radius: 4px;
+    background-color: #ffc200;
+    padding: 10px 40px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bg {
+    min-height: 787px;
+    background-color: #303030;
+}
+
+.best-seller-img img {
+    border-radius: 50%;
+}
+
+.best-seller-text h3 {
+    font-size: 42px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    text-align: center;
+}

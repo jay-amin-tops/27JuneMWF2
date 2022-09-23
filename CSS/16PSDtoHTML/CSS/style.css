@@ -33,6 +33,12 @@
 .col-60 {
     width: 60%;
 }
+.col-50 {
+    width: 50%;
+}
+.col-25 {
+    width: 25%;
+}
 
 .posi-rele {
     position: relative;
@@ -131,4 +137,25 @@ nav ul li a {
     font-weight: 400;
     font-family: "Playfair Display";
     text-align: center;
+}
+#oriental{
+    /* background: url(../images/bg.png) no-repeat -325px 0px; */
+    background:url(../images/Layer\ 1.png) no-repeat 0px 0px /cover;
+    /* padding: 50px 0; */
+    margin: 50px 0;
+}
+.border-rounded{
+    border-radius: 50%;
+}
+#oriental h2{
+    font-size: 100px;
+    color: #ffc200;
+    font-weight: 400;
+    font-family: "Playfair Display";
+}
+#oriental p{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
 }

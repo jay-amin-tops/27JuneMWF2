@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media print {
+            body {
+                font-size: 10pt;
+                color: orangered;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: 1px solid;
+        }
+
+        .container {
+            /* width: 1100px; */
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: ; */
+        }
+
+        .col {
+            text-align: justify;
+            padding: 0 15px;
+            margin: 10px;
+            box-shadow: 5px 5px 10px grey;
+            width: 100%;
+        }
+
+        @media (min-width:576px) {
+            .container {
+                width: 540px;
+            }
+
+            .col {
+                width: 100%;
+            }
+        }
+
+        @media (min-width:768px) {
+            .container {
+                width: 720px;
+            }
+
+            .col {
+                width: 42%;
+            }
+        }
+
+        @media (min-width:992px) {
+            .container {
+                width: 920px;
+            }
+
+            .col {
+                width: 27%;
+            }
+        }
+
+        @media (min-width:1200px) {
+            .container {
+                width: 1140px;
+            }
+
+            .col {
+                width: 20%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime autem dolor rerum iure ad adipisci voluptatibus,
+        accusantium dignissimos sapiente quibusdam quas ullam, sed non odio et eligendi facilis reiciendis sequi.</p>
+    <p>Screen</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In similique error dolore quaerat
+                laborum natus a praesentium corrupti ducimus dolores amet odio eum expedita minus voluptas distinctio,
+                ea molestias cum.</div>
+            <div class="col">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In similique error dolore quaerat
+                laborum natus a praesentium corrupti ducimus dolores amet odio eum expedita minus voluptas distinctio,
+                ea molestias cum.</div>
+            <div class="col">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In similique error dolore quaerat
+                laborum natus a praesentium corrupti ducimus dolores amet odio eum expedita minus voluptas distinctio,
+                ea molestias cum.</div>
+            <div class="col">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In similique error dolore quaerat
+                laborum natus a praesentium corrupti ducimus dolores amet odio eum expedita minus voluptas distinctio,
+                ea molestias cum.</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            transition: all 3s;
+            width: 400px;
+        }
+        .trans-matrix img:hover{
+            transform: matrix(1, 2, 3, 4, 5, 6);
+        }
+        .trans-translate img:hover{
+            transform: translate(120px, 50%);
+        }
+        .trans-scale img:hover{
+            transform: scale(1.2);
+        }
+        .trans-rotate img:hover{
+            transform: rotate(0.5turn);
+        }
+        .trans-skew img:hover{
+            transform: skew(30deg, 20deg);
+        }
+        </style>
+</head>
+<body>
+    <div class="trans-matrix">
+        transform: matrix(1, 2, 3, 4, 5, 6);
+        <img src="blue-smiley-face-button-15880828.jpg" alt="">
+    </div>
+    <div class="trans-translate">
+        transform: translate(120px, 50%);
+        <img src="blue-smiley-face-button-15880828.jpg" alt="">
+    </div>
+    <div class="trans-scale">
+        transform: scale(2, 0.5);
+        <img src="blue-smiley-face-button-15880828.jpg" alt="">
+    </div>
+    <div class="trans-rotate">
+        transform: rotate(0.5turn);
+        <img src="blue-smiley-face-button-15880828.jpg" alt="">
+    </div>
+    <div class="trans-skew">
+        transform: skew(30deg, 20deg);
+        <img src="blue-smiley-face-button-15880828.jpg" alt="">
+    </div>
+</body>
+</html>

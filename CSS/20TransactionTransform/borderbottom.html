@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            margin-bottom: 10px;
+        }
+
+        .border-bottom {
+            display: inline-block;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .border-bottom::after {
+            content: "";
+            display: block;
+            transform:scaleX(0);
+            height: 2px;
+            background: linear-gradient(rgb(0, 46, 46),white,rgb(0, 61, 194));
+            transition: all 0.3s;
+        }
+
+        .border-bottom:hover::after {
+            /* width: 100%; */
+            transform: scaleX(1);
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a class="border-bottom" href="#">link</a></li>
+        <li><a class="border-bottom" href="#">link</a></li>
+        <li><a class="border-bottom" href="#">link</a></li>
+    </ul>
+
+    <a class="border-bottom" href="#">Text</a>
+</body>
+
+</html>

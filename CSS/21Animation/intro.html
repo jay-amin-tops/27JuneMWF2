@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation-name: custanimation;
+            animation-duration: 2s;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: backwards;
+        }
+        @keyframes custanimation {
+            /* to{
+                right: -500px;
+            }
+            from{
+                right: 0px;
+            } */
+            0%{ right: -600px; }
+            20%{ right: -500px; }
+            40%{ right: -400px; }
+            60%{ right: -300px; }
+            80%{ right: -200px; }
+            100%{ right: 0px; }
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, perferendis. Reiciendis alias dolore, esse dicta dignissimos enim aspernatur impedit magnam facilis ipsa, itaque quaerat modi earum voluptas, odio a omnis?</p>
+</body>
+</html>

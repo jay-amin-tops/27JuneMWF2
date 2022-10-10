@@ -7,15 +7,26 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- <script src="external-custom.js" defer></script>  -->
+    <!-- <script defer> not usefull for internal JS -->
     <script>
-        if (confirm("Are you sure ???")) {
+        // if (confirm("Are you sure ???")) {
+        //     // console.log();
+        // } else {
             
-        } else {
-            
-        }
+        // }
         // alert("pop-up")
         // confirm("pop-up")
         // prompt("pop-up")
+        // function function_name(params) {
+        //     console.log("called");
+        // }
+        document.body.style.backgroundColor="green"
+        console.log(document);
+        const function_name = ()=> "called"
+        console.log(function_name);
+        // function_name();
+
     </script>
 </body>
 </html>

@@ -11,14 +11,15 @@
             display: grid;
             width: 100%;
             height: 250px;
-            /* grid-template-areas: "head head"
-                "nav  main"
-                "nav  foot"; */
-                /* for media query START */
             grid-template-areas: "head head"
-                "nav nav"
+                "nav  nav"
                 "main main"
                 "foot  foot";
+                /* for media query START */
+            /* grid-template-areas: "head head"
+                "nav nav"
+                "main main"
+                "foot  foot"; */
                 /* for media query START */
             grid-template-rows: 50px 1fr 30px;
             grid-template-columns: 150px 1fr;
@@ -42,6 +43,13 @@
         #page>footer {
             grid-area: foot;
             background-color: #8cffa0;
+        }
+        @media (min-width:992px) {
+            #page {
+            grid-template-areas: "head head"
+                "nav  main"
+                "nav  foot";
+            }
         }
     </style>
 </head>

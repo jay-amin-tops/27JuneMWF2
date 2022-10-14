@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <select name="slot" class="form-control" id="slot">
+                    <option value="">Select Slot</option>
+                    <option value="Full">Full Day</option>
+                    <option value="Half">Half Day</option>
+                    <option value="Custom">Custom</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="disp"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("slot").addEventListener("change",function (e) {
+            console.log("change called",e.target.value);
+            if (e.target.value == "Full") {
+                document.getElementById("disp").innerHTML = '<input type="date">' 
+            } else if(e.target.value == "Half") {
+                document.getElementById("disp").innerHTML = `<select name="slot" class="form-control" id="slot">
+                    <option value="">Select Slot</option>
+                    <option value="Full">Full Day</option>
+                    <option value="Half">Half Day</option>
+                    <option value="Custom">Custom</option>
+                </select>` 
+            }else{
+                document.getElementById("disp").innerHTML = '<input type="datetime-local">' 
+            }
+            // const newDiv = document.createElement("div");
+            // const newContent = document.createTextNode("Data");
+            // newDiv.appendChild(newContent);
+            // console.log(newDiv);
+            // console.log(document.getElementById("disp").children);
+            // document.getElementById("disp").innerHTML = "" 
+            // document.getElementById("disp").innerText = "<b>something</b>" 
+            // document.getElementById("disp").appendChild(newDiv,"div") 
+        })
+    </script>
+</body>
+</html>
